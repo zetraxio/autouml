@@ -9,9 +9,9 @@
     "url": "https://github.com/smack0007/typescript-console-starter"
   },
   "scripts": {
-    "compile": "./node_modules/.bin/tsc",
-    "dev": "./node_modules/.bin/tsc-watch --onSuccess \"node ./dist/main.js\"",
-    "lint": "./node_modules/.bin/tslint --project ./tsconfig.json"
+    "compile": "tsc",
+    "dev": "tsc-watch --onSuccess \"node ./build/main.js\"",
+    "lint": "tslint --project ./tsconfig.json"
   },
   "devDependencies": {
     "@types/node": "^9.4.0",
